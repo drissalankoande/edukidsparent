@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil - VotreSiteWeb</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://sain-et-naturel.ouest-france.fr/wp-content/uploads/2020/02/%C3%A9duquer-un-enfant-4.jpg'); /* Chemin vers votre image de fond */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 800px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .welcome-message {
+      margin-bottom: 30px;
+    }
+
+    .welcome-message h1 {
+      font-size: 36px;
+      color: #333;
+    }
+
+    .welcome-message p {
+      font-size: 18px;
+      color: #666;
+    }
+
+    .signup-form {
+      margin-top: 20px;
+    }
+
+    .signup-form input[type="email"] {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .signup-form input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .age-sections {
+      margin-top: 30px;
+    }
+
+    .age-sections a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .age-sections a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="welcome-message">
+      <h1>Bienvenue sur VotreSiteWeb</h1>
+      <p>Ici, vous trouverez une multitude de ressources pour vous aider dans l'éducation de vos enfants.</p>
+    </div>
+    <form class="signup-form">
+      <h2>Veuillez choisir la section d'âge de votre enfant</h2>
+      <div class="age-sections">
+        <a href="toutpetit.html">0-2 ans (nourrissons et tout-petits)</a>
+        <a href="prescolaire.html">3-5 ans (enfants d'âge préscolaire)</a>
+        <a href="ecoleprimaire.html">6-9 ans (enfants d'école primaire)</a>
+        <a href="preadolescents.html">10-12 ans (préadolescents)</a>
+        <a href="adolescents.html">13-17 ans (adolescents)</a>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // Vous pouvez ajouter du JavaScript ici si nécessaire
+  </script>
+</body>
+</html>
